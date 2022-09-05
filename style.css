@@ -1,0 +1,72 @@
+body {
+    background: skyblue;
+}
+
+header {
+    text-align: center;
+}
+
+#songs {
+    display: grid;
+    margin: auto 10% auto 15%;
+    grid-template-columns: repeat(3, 240px);
+    grid-template-rows: auto;
+    grid-gap: 15%;
+    /* text-align: center; */
+
+}
+
+input[type="text"] {
+    line-height: 2rem;
+    width: 50%;
+    margin: auto 100px auto 100px;
+}
+
+/* Now for label and button  */
+label, button {
+    line-height: 2rem;
+    width: 150px;
+    font-weight: 700;
+}
+
+button {
+    padding: auto 10% auto 10%;
+}
+
+/* Now for the audio  */
+audio {
+    line-height: 15px;
+    border-radius: 0;
+}
+
+p {
+    text-align: center;
+}
+
+/* Now for the image  */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media (max-width:1000px) {
+   label,input,button{
+       /* display:flexbox; */
+       margin-left: 20%;
+   }
+   label{
+    margin-left: 20%;
+    margin-right: 20%;
+
+   }
+   button{
+       margin-top: 2%;
+       margin-left: 40%;
+       margin-right: 80%;
+   }
+   
+
+    
+}
